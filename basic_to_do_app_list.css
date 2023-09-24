@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color:rgb(63, 48, 151);
+    box-sizing: border-box;
+}
+
+h1 {
+	color:rgba(169, 169, 169, 0.507);
+	font-size: 3rem;
+	font-weight: 65;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title{
+	color:#6e2b47;
+	text-transform: lowercase;
+	font-weight: 600;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(15, 102, 15);
+    color: rgba(255, 255, 255, 0.856);
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #ffffffb6;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color:#c2704f;
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color:#257e40;
+	font-size: 1.4rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(134, 28, 28);
+	font-size: 1.4rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	cursor: pointer;
+}
